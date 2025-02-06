@@ -10,7 +10,7 @@ int main() {
         case '-':printf("%d",a-b);break;
         case '*':printf("%d",a*b);break;
         case '/':if (b == 0) 
-                printf("Error: Division by zero\n");
+                printf("error");
             else 
                 printf("%.2f\n", (float)a / b); 
             break;
