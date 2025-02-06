@@ -6,5 +6,8 @@ int main() {
     if (b == 'a'||b=='e'||b=='i'||b=='o'||b=='u'){
         printf("Vowel");
     }
+    else{
+        printf("Consonant");
+    }
     return 0;
 }
