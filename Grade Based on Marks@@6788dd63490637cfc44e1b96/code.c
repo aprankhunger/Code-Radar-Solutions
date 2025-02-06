@@ -3,7 +3,7 @@
 int main() {
     int a;
     scanf("%d",&a);
-    a = a/10
+    a = a/10;
     switch(a){
         case 10:
         case 9:printf("A");break;
