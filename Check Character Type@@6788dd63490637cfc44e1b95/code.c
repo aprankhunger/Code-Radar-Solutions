@@ -1,10 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    char a[]= "aeiouAEIOU"
     char b;
     scanf("%c",&b);
-    if (b in a[]){
+    if (b == "a"||b=="e"||b=="i"||b=="o"||b=="u"){
         printf("Vowel");
     }
     return 0;
