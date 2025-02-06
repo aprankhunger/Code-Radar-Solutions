@@ -12,7 +12,7 @@ int main() {
         case '/':if (b == 0) 
                 printf("error");
             else 
-                printf("%.2f\n", (float)a / b); 
+                printf("%d",a / b); 
             break;
     }
     return 0;
