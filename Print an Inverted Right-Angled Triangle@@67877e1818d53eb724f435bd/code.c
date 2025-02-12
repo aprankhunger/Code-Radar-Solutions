@@ -5,11 +5,10 @@ int main() {
     scanf("%d", &a);
 
     for (int i = a; i > 0; i--) { 
-        // Print stars in a single statement
-        for (int j = 0; j < i; j++) 
-            putchar('*'), putchar(' '); 
-        
-        putchar('\n'); // Print newline
+        for (int j = 0; j < i; j++) { 
+            printf("* ");
+        }
+        printf("\n"); 
     }
 
     return 0;
